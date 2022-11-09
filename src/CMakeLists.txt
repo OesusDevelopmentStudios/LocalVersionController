@@ -1,4 +1,4 @@
-# add_subdirectory(enums)
+add_subdirectory(enums)
 add_subdirectory(input)
 
 add_executable(lvc

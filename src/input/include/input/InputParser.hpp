@@ -3,7 +3,16 @@
 #include <string>
 #include <vector>
 
-namespace lvc::input
+namespace lvc
+{
+
+namespace enums
+{
+//enum class ECommand;
+//enum class EOption;
+}
+
+namespace input
 {
 
 struct Option
@@ -64,4 +73,5 @@ private:
     std::vector<Option> options_;
 };
 
-}  // namespace lvc::input
+}  // namespace input
+}  // namespace lvc

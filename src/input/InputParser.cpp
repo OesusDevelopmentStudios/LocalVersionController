@@ -3,6 +3,9 @@
 #include <algorithm>
 #include <iostream>
 
+#include <enums/ECommand.hpp>
+#include <enums/EOption.hpp>
+
 namespace lvc::input
 {
 
